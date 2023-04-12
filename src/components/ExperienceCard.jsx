@@ -37,7 +37,7 @@ const ExperienceCard = ({experience}) => {
                     <img className='w-10 h-10 rounded-full' src='https://media.licdn.com/dms/image/C560BAQFi30eQoynqxw/company-logo_200_200/0/1628089032445?e=1689206400&v=beta&t=hqFBebzThMHHzcldMNCObH0_KKfRq0tBLwUTQnoB38Y'/>
                 </div> */}
                 <p className='uppercase py-2 text-gray-300 text-sm sm:text-base'>Started work: {experience.start} - End: {experience.end}</p>
-                <ul className='list-disc space-y-4 ml-5 text-md w-60 sm:w-96  text-xs sm:text-base'>
+                <ul className='list-disc space-y-2 ml-5 text-md w-60 sm:w-96  text-xs sm:text-base'>
                     <li>{experience.summary_point_1}</li>
                     <li>{experience.summary_point_2}</li>
                     <li>{experience.summary_point_3}</li>
